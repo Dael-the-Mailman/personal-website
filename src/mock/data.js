@@ -46,18 +46,18 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'FrenchBlog.png',
+    title: 'French Blog',
+    info: 'A blog created for my classmates to post their assignments',
+    info2: 'Created using reactjs, mongodb, and nodejs',
+    url: 'https://french-blog.herokuapp.com/',
+    repo: 'https://github.com/Dael-the-Mailman/french-blog', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Want to contact me? Hit the button below!',
   btn: '',
   email: 'kalebugalde@gmail.com',
 };
