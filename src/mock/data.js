@@ -17,11 +17,12 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: 'I am a self-taught programmer',
-  paragraphTwo: 'I mentored local robotics team',
+  img: 'selfie.jpg',
+  paragraphOne:
+    'I am a self-taught programmer. I have experience programming in the fields of web development, robotics, machine learning, and computer vision.',
+  paragraphTwo: 'I mentored local robotics team and have tutored students about computer science.',
   paragraphThree: 'My goals are to help improve the lives of others through technology.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
