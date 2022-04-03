@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Kaleb Ugalde | Programmer', // e.g: 'Name | Developer'
+  title: 'Kaleb Ugalde | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: "Welcome to Kaleb Ugalde's website", // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I am a self-taught programmer. I have experience programming in the fields of web development, robotics, machine learning, and computer vision.',
   paragraphTwo: 'I mentored local robotics team and have tutored students about computer science.',
-  paragraphThree: 'My goals are to help improve the lives of others through technology.',
+  paragraphThree: 'My goal is to help improve the lives of others through technology.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -30,9 +30,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'YouTube Doro',
+    info: 'A pomodoro timer style web app that plays youtube videos during the breaks',
+    info2: 'Created using ...',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
